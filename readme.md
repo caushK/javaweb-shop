@@ -34,37 +34,37 @@ A shopping website demo built using JavaWeb and MySQL.
 
 # Preview
 ### Front page
-![](/assets/img/front page.png)
+![](/assets/img/front-page.png)
 
 ### Login
 ![](/assets/img/login.png)
 
 ### Login and register
-![](/assets/img/login and register.png)
+![](/assets/img/login-and-register.png)
 
 ### User center
-![](/assets/img/user center.png)
+![](/assets/img/user-center.png)
 
 ### Orders display
-![](/assets/img/orders display.png)
+![](/assets/img/orders-display.png)
 
 ### Order detail
-![](/assets/img/order detail.png)
+![](/assets/img/order-detail.png)
 
 ### Products display
-![](/assets/img/products display.png)
+![](/assets/img/products-display.png)
 
 ### Product detail
-![](/assets/img/product detail.png)
+![](/assets/img/product-detail.png)
 
 ### Products searching
-![](/assets/img/products searching.png)
+![](/assets/img/products-searching.png)
 
 ### Shopping cart
-![](/assets/img/shopping cart.png)
+![](/assets/img/shopping-cart.png)
 
 ### Checkout
 ![](/assets/img/checkout.png)
 
 ### About us (blog page)
-![](/assets/img/about us.png)
+![](/assets/img/about-us.png)

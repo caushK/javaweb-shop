@@ -34,37 +34,37 @@
 
 # 网站演示
 ### 首页
-![](/assets/img/front page.png)
+![](/assets/img/front-page.png)
 
 ### 登录窗口
 ![](/assets/img/login.png)
 
 ### 注册 / 登录页
-![](/assets/img/login and register.png)
+![](/assets/img/login-and-register.png)
 
 ### 用户中心
-![](/assets/img/user center.png)
+![](/assets/img/user-center.png)
 
 ### 订单展示
-![](/assets/img/orders display.png)
+![](/assets/img/orders-display.png)
 
 ### 订单详情
-![](/assets/img/order detail.png)
+![](/assets/img/order-detail.png)
 
 ### 商品展示
-![](/assets/img/products display.png)
+![](/assets/img/products-display.png)
 
 ### 商品详情
-![](/assets/img/product detail.png)
+![](/assets/img/product-detail.png)
 
 ### 搜索商品
-![](/assets/img/products searching.png)
+![](/assets/img/products-searching.png)
 
 ### 购物车
-![](/assets/img/shopping cart.png)
+![](/assets/img/shopping-cart.png)
 
 ### 结算页面
 ![](/assets/img/checkout.png)
 
 ### 网站介绍 (文章页)
-![](/assets/img/about us.png)
+![](/assets/img/about-us.png)
