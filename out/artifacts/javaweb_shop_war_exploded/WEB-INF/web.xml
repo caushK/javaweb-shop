@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance http://www.springmodules.org/schema/cache/springmodules-cache.xsd http://www.springmodules.org/schema/cache/springmodules-ehcache.xsd" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+
+
+  <servlet>
+    <servlet-name>orderAddressServlet</servlet-name>
+    <servlet-class>shop.servlet.OrderAddressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cartDeleteServlet</servlet-name>
+    <servlet-class>shop.servlet.CartDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cartServlet</servlet-name>
+    <servlet-class>shop.servlet.CartServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>registerServlet</servlet-name>
+    <servlet-class>shop.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>loginServlet</servlet-name>
+    <servlet-class>shop.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>changePasswordServlet</servlet-name>
+    <servlet-class>shop.servlet.ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>changeInfoServlet</servlet-name>
+    <servlet-class>shop.servlet.ChangeInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>cancelOrderServlet</servlet-name>
+    <servlet-class>shop.servlet.CancelOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ConfirmReceiptServlet</servlet-name>
+    <servlet-class>shop.servlet.ConfirmReceiptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>changeCartPro</servlet-name>
+    <servlet-class>shop.servlet.ChangeCartServlet</servlet-class>
+  </servlet>
+
+  
+  <welcome-file-list>
+    <welcome-file>/index.jsp</welcome-file>
+  </welcome-file-list>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>orderAddressServlet</servlet-name>
+    <url-pattern>/orderAddress</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cartDeleteServlet</servlet-name>
+    <url-pattern>/cartDelete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cartServlet</servlet-name>
+    <url-pattern>/myShoppingCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>registerServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>loginServlet</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changePasswordServlet</servlet-name>
+    <url-pattern>/changePassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeInfoServlet</servlet-name>
+    <url-pattern>/changeInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>cancelOrderServlet</servlet-name>
+    <url-pattern>/cancelOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ConfirmReceiptServlet</servlet-name>
+    <url-pattern>/confirmReceipt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changeCartPro</servlet-name>
+    <url-pattern>/changeCartPro</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
